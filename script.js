@@ -1,27 +1,27 @@
-// // 1
+// 1
 
-// let name = 'alex'
-// let account = 7777
-// let balance = 10000
+let name = 'alex'
+let account = 7777
+let balance = 10000
 
-// let a = prompt('Как вас зовут?')
+let a = prompt('Как вас зовут?')
 
-// if (a.toLowerCase() === 'alex') {
+if (a.toLowerCase() === 'alex') {
 
-//     let b = +prompt('Введите код')
-//     if (b === 7777) {
-//         let c = prompt('Сколько обналичить?')
-//         if (c <= balance) {
-//             alert(`ваш баланс ${balance - c}`)
-//         } else {
-//             alert(`Не достаточно  ${balance - c}`)
-//         }
-//     } else {
-//         alert('Пользователь не найден, досвидули')
-//     }
-// } else {
-//     alert('Пользователь не найден, досвидули')
-// }
+    let b = +prompt('Введите код')
+    if (b === 7777) {
+        let c = prompt('Сколько обналичить?')
+        if (c <= balance) {
+            alert(`ваш баланс ${balance - c}`)
+        } else {
+            alert(`Не достаточно  ${balance - c}`)
+        }
+    } else {
+        alert('Пользователь не найден, досвидули')
+    }
+} else {
+    alert('Пользователь не найден, досвидули')
+}
 
 
 
